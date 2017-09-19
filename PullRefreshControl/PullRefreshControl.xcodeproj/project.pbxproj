@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B27D77B1F70F684000B4CE5 /* KTFlashingTextRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B27D77A1F70F684000B4CE5 /* KTFlashingTextRefreshHeader.m */; };
+		3B27D77E1F70F72A000B4CE5 /* KTFlashingTextAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B27D77D1F70F72A000B4CE5 /* KTFlashingTextAnimation.m */; };
+		3B27D7811F70F9D9000B4CE5 /* KTTextAppearAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B27D7801F70F9D9000B4CE5 /* KTTextAppearAnimation.m */; };
+		3B6AD0401F6F6FFE00F92C8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AD03F1F6F6FFE00F92C8A /* main.m */; };
+		3B6AD0431F6F6FFE00F92C8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AD0421F6F6FFE00F92C8A /* AppDelegate.m */; };
+		3B6AD04C1F6F6FFE00F92C8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6AD04A1F6F6FFE00F92C8A /* Main.storyboard */; };
+		3B6AD04E1F6F6FFE00F92C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6AD04D1F6F6FFE00F92C8A /* Assets.xcassets */; };
+		3B6AD0511F6F6FFE00F92C8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6AD04F1F6F6FFE00F92C8A /* LaunchScreen.storyboard */; };
+		3B6AD05B1F6F799A00F92C8A /* KTPullRefreshControlListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AD0591F6F799900F92C8A /* KTPullRefreshControlListController.m */; };
+		3B6AD05C1F6F799A00F92C8A /* KTPullRefreshControlListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6AD05A1F6F799900F92C8A /* KTPullRefreshControlListController.xib */; };
+		3B6AD0601F6F817900F92C8A /* KTPullRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AD05E1F6F817900F92C8A /* KTPullRefreshTableViewController.m */; };
+		3B6AD0611F6F817900F92C8A /* KTPullRefreshTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6AD05F1F6F817900F92C8A /* KTPullRefreshTableViewController.xib */; };
+		3B6AD0681F6F836B00F92C8A /* KTTextRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AD0651F6F836B00F92C8A /* KTTextRefreshAutoFooter.m */; };
+		3B6AD0691F6F836B00F92C8A /* KTTextRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AD0671F6F836B00F92C8A /* KTTextRefreshHeader.m */; };
+		3B6AD06D1F6F944400F92C8A /* KTLogoRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AD06C1F6F944400F92C8A /* KTLogoRefreshHeader.m */; };
+		3B6AD0711F6FA9C700F92C8A /* KTGIFRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AD0701F6FA9C700F92C8A /* KTGIFRefreshHeader.m */; };
+		3B6AD0751F6FD6DD00F92C8A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AD0731F6FD6DD00F92C8A /* TestViewController.m */; };
+		3B6AD0761F6FD6DD00F92C8A /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6AD0741F6FD6DD00F92C8A /* TestViewController.xib */; };
+		DB50011980938B250AFAF01E /* libPods-PullRefreshControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B330171BE38542EA9BC439EF /* libPods-PullRefreshControl.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B27D7791F70F684000B4CE5 /* KTFlashingTextRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTFlashingTextRefreshHeader.h; sourceTree = "<group>"; };
+		3B27D77A1F70F684000B4CE5 /* KTFlashingTextRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTFlashingTextRefreshHeader.m; sourceTree = "<group>"; };
+		3B27D77C1F70F72A000B4CE5 /* KTFlashingTextAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTFlashingTextAnimation.h; sourceTree = "<group>"; };
+		3B27D77D1F70F72A000B4CE5 /* KTFlashingTextAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTFlashingTextAnimation.m; sourceTree = "<group>"; };
+		3B27D77F1F70F9D9000B4CE5 /* KTTextAppearAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTextAppearAnimation.h; sourceTree = "<group>"; };
+		3B27D7801F70F9D9000B4CE5 /* KTTextAppearAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTextAppearAnimation.m; sourceTree = "<group>"; };
+		3B6AD03B1F6F6FFE00F92C8A /* PullRefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullRefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6AD03F1F6F6FFE00F92C8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B6AD0411F6F6FFE00F92C8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B6AD0421F6F6FFE00F92C8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B6AD04B1F6F6FFE00F92C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B6AD04D1F6F6FFE00F92C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B6AD0501F6F6FFE00F92C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B6AD0521F6F6FFE00F92C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6AD0581F6F799900F92C8A /* KTPullRefreshControlListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPullRefreshControlListController.h; sourceTree = "<group>"; };
+		3B6AD0591F6F799900F92C8A /* KTPullRefreshControlListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPullRefreshControlListController.m; sourceTree = "<group>"; };
+		3B6AD05A1F6F799900F92C8A /* KTPullRefreshControlListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTPullRefreshControlListController.xib; sourceTree = "<group>"; };
+		3B6AD05D1F6F817900F92C8A /* KTPullRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPullRefreshTableViewController.h; sourceTree = "<group>"; };
+		3B6AD05E1F6F817900F92C8A /* KTPullRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPullRefreshTableViewController.m; sourceTree = "<group>"; };
+		3B6AD05F1F6F817900F92C8A /* KTPullRefreshTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTPullRefreshTableViewController.xib; sourceTree = "<group>"; };
+		3B6AD0641F6F836B00F92C8A /* KTTextRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTextRefreshAutoFooter.h; sourceTree = "<group>"; };
+		3B6AD0651F6F836B00F92C8A /* KTTextRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTextRefreshAutoFooter.m; sourceTree = "<group>"; };
+		3B6AD0661F6F836B00F92C8A /* KTTextRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTextRefreshHeader.h; sourceTree = "<group>"; };
+		3B6AD0671F6F836B00F92C8A /* KTTextRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTextRefreshHeader.m; sourceTree = "<group>"; };
+		3B6AD06B1F6F944400F92C8A /* KTLogoRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTLogoRefreshHeader.h; sourceTree = "<group>"; };
+		3B6AD06C1F6F944400F92C8A /* KTLogoRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTLogoRefreshHeader.m; sourceTree = "<group>"; };
+		3B6AD06F1F6FA9C700F92C8A /* KTGIFRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTGIFRefreshHeader.h; sourceTree = "<group>"; };
+		3B6AD0701F6FA9C700F92C8A /* KTGIFRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTGIFRefreshHeader.m; sourceTree = "<group>"; };
+		3B6AD0721F6FD6DD00F92C8A /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		3B6AD0731F6FD6DD00F92C8A /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		3B6AD0741F6FD6DD00F92C8A /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		62A6D3B20CF560937968067D /* Pods-PullRefreshControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PullRefreshControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PullRefreshControl/Pods-PullRefreshControl.debug.xcconfig"; sourceTree = "<group>"; };
+		B330171BE38542EA9BC439EF /* libPods-PullRefreshControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PullRefreshControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42E0EC8D68200027D64DAAD /* Pods-PullRefreshControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PullRefreshControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-PullRefreshControl/Pods-PullRefreshControl.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B6AD0381F6F6FF800F92C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB50011980938B250AFAF01E /* libPods-PullRefreshControl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B27D7781F70F661000B4CE5 /* flashing */ = {
+			isa = PBXGroup;
+			children = (
+				3B27D77F1F70F9D9000B4CE5 /* KTTextAppearAnimation.h */,
+				3B27D7801F70F9D9000B4CE5 /* KTTextAppearAnimation.m */,
+				3B27D77C1F70F72A000B4CE5 /* KTFlashingTextAnimation.h */,
+				3B27D77D1F70F72A000B4CE5 /* KTFlashingTextAnimation.m */,
+				3B27D7791F70F684000B4CE5 /* KTFlashingTextRefreshHeader.h */,
+				3B27D77A1F70F684000B4CE5 /* KTFlashingTextRefreshHeader.m */,
+			);
+			path = flashing;
+			sourceTree = "<group>";
+		};
+		3B6AD0321F6F6FF800F92C8A = {
+			isa = PBXGroup;
+			children = (
+				3B6AD03D1F6F6FFE00F92C8A /* PullRefreshControl */,
+				3B6AD03C1F6F6FFE00F92C8A /* Products */,
+				63C010D6B4E559C373A4CDB4 /* Pods */,
+				951B9E9F779A67E9FCC57A35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B6AD03C1F6F6FFE00F92C8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B6AD03B1F6F6FFE00F92C8A /* PullRefreshControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6AD03D1F6F6FFE00F92C8A /* PullRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				3B6AD0621F6F836B00F92C8A /* KTPullRefreshControl */,
+				3B6AD0581F6F799900F92C8A /* KTPullRefreshControlListController.h */,
+				3B6AD0591F6F799900F92C8A /* KTPullRefreshControlListController.m */,
+				3B6AD05A1F6F799900F92C8A /* KTPullRefreshControlListController.xib */,
+				3B6AD05D1F6F817900F92C8A /* KTPullRefreshTableViewController.h */,
+				3B6AD05E1F6F817900F92C8A /* KTPullRefreshTableViewController.m */,
+				3B6AD05F1F6F817900F92C8A /* KTPullRefreshTableViewController.xib */,
+				3B6AD0721F6FD6DD00F92C8A /* TestViewController.h */,
+				3B6AD0731F6FD6DD00F92C8A /* TestViewController.m */,
+				3B6AD0741F6FD6DD00F92C8A /* TestViewController.xib */,
+				3B6AD0411F6F6FFE00F92C8A /* AppDelegate.h */,
+				3B6AD0421F6F6FFE00F92C8A /* AppDelegate.m */,
+				3B6AD04A1F6F6FFE00F92C8A /* Main.storyboard */,
+				3B6AD04D1F6F6FFE00F92C8A /* Assets.xcassets */,
+				3B6AD04F1F6F6FFE00F92C8A /* LaunchScreen.storyboard */,
+				3B6AD0521F6F6FFE00F92C8A /* Info.plist */,
+				3B6AD03E1F6F6FFE00F92C8A /* Supporting Files */,
+			);
+			path = PullRefreshControl;
+			sourceTree = "<group>";
+		};
+		3B6AD03E1F6F6FFE00F92C8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B6AD03F1F6F6FFE00F92C8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B6AD0621F6F836B00F92C8A /* KTPullRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				3B27D7781F70F661000B4CE5 /* flashing */,
+				3B6AD06E1F6FA98C00F92C8A /* gif */,
+				3B6AD06A1F6F942300F92C8A /* logo */,
+				3B6AD0631F6F836B00F92C8A /* text */,
+			);
+			path = KTPullRefreshControl;
+			sourceTree = "<group>";
+		};
+		3B6AD0631F6F836B00F92C8A /* text */ = {
+			isa = PBXGroup;
+			children = (
+				3B6AD0641F6F836B00F92C8A /* KTTextRefreshAutoFooter.h */,
+				3B6AD0651F6F836B00F92C8A /* KTTextRefreshAutoFooter.m */,
+				3B6AD0661F6F836B00F92C8A /* KTTextRefreshHeader.h */,
+				3B6AD0671F6F836B00F92C8A /* KTTextRefreshHeader.m */,
+			);
+			path = text;
+			sourceTree = "<group>";
+		};
+		3B6AD06A1F6F942300F92C8A /* logo */ = {
+			isa = PBXGroup;
+			children = (
+				3B6AD06B1F6F944400F92C8A /* KTLogoRefreshHeader.h */,
+				3B6AD06C1F6F944400F92C8A /* KTLogoRefreshHeader.m */,
+			);
+			path = logo;
+			sourceTree = "<group>";
+		};
+		3B6AD06E1F6FA98C00F92C8A /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				3B6AD06F1F6FA9C700F92C8A /* KTGIFRefreshHeader.h */,
+				3B6AD0701F6FA9C700F92C8A /* KTGIFRefreshHeader.m */,
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
+		63C010D6B4E559C373A4CDB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62A6D3B20CF560937968067D /* Pods-PullRefreshControl.debug.xcconfig */,
+				E42E0EC8D68200027D64DAAD /* Pods-PullRefreshControl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		951B9E9F779A67E9FCC57A35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B330171BE38542EA9BC439EF /* libPods-PullRefreshControl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B6AD03A1F6F6FF800F92C8A /* PullRefreshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6AD0551F6F6FFE00F92C8A /* Build configuration list for PBXNativeTarget "PullRefreshControl" */;
+			buildPhases = (
+				F66EB60CAAD29D3687434425 /* [CP] Check Pods Manifest.lock */,
+				3B6AD0371F6F6FF800F92C8A /* Sources */,
+				3B6AD0381F6F6FF800F92C8A /* Frameworks */,
+				3B6AD0391F6F6FF800F92C8A /* Resources */,
+				6FE17830064B007EA1F2BAC3 /* [CP] Embed Pods Frameworks */,
+				01055E8EB800EC5B93EA95E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PullRefreshControl;
+			productName = PullRefreshControl;
+			productReference = 3B6AD03B1F6F6FFE00F92C8A /* PullRefreshControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B6AD0331F6F6FF800F92C8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ksrsj.com;
+				TargetAttributes = {
+					3B6AD03A1F6F6FF800F92C8A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 59U7F436D7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B6AD0361F6F6FF800F92C8A /* Build configuration list for PBXProject "PullRefreshControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B6AD0321F6F6FF800F92C8A;
+			productRefGroup = 3B6AD03C1F6F6FFE00F92C8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B6AD03A1F6F6FF800F92C8A /* PullRefreshControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B6AD0391F6F6FF800F92C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6AD0511F6F6FFE00F92C8A /* LaunchScreen.storyboard in Resources */,
+				3B6AD04E1F6F6FFE00F92C8A /* Assets.xcassets in Resources */,
+				3B6AD0611F6F817900F92C8A /* KTPullRefreshTableViewController.xib in Resources */,
+				3B6AD04C1F6F6FFE00F92C8A /* Main.storyboard in Resources */,
+				3B6AD0761F6FD6DD00F92C8A /* TestViewController.xib in Resources */,
+				3B6AD05C1F6F799A00F92C8A /* KTPullRefreshControlListController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01055E8EB800EC5B93EA95E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PullRefreshControl/Pods-PullRefreshControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FE17830064B007EA1F2BAC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PullRefreshControl/Pods-PullRefreshControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F66EB60CAAD29D3687434425 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B6AD0371F6F6FF800F92C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6AD0691F6F836B00F92C8A /* KTTextRefreshHeader.m in Sources */,
+				3B6AD0681F6F836B00F92C8A /* KTTextRefreshAutoFooter.m in Sources */,
+				3B6AD06D1F6F944400F92C8A /* KTLogoRefreshHeader.m in Sources */,
+				3B6AD05B1F6F799A00F92C8A /* KTPullRefreshControlListController.m in Sources */,
+				3B6AD0711F6FA9C700F92C8A /* KTGIFRefreshHeader.m in Sources */,
+				3B27D7811F70F9D9000B4CE5 /* KTTextAppearAnimation.m in Sources */,
+				3B6AD0431F6F6FFE00F92C8A /* AppDelegate.m in Sources */,
+				3B6AD0751F6FD6DD00F92C8A /* TestViewController.m in Sources */,
+				3B6AD0401F6F6FFE00F92C8A /* main.m in Sources */,
+				3B27D77B1F70F684000B4CE5 /* KTFlashingTextRefreshHeader.m in Sources */,
+				3B6AD0601F6F817900F92C8A /* KTPullRefreshTableViewController.m in Sources */,
+				3B27D77E1F70F72A000B4CE5 /* KTFlashingTextAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B6AD04A1F6F6FFE00F92C8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B6AD04B1F6F6FFE00F92C8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B6AD04F1F6F6FFE00F92C8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B6AD0501F6F6FFE00F92C8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B6AD0531F6F6FFE00F92C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B6AD0541F6F6FFE00F92C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B6AD0561F6F6FFE00F92C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A6D3B20CF560937968067D /* Pods-PullRefreshControl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59U7F436D7;
+				INFOPLIST_FILE = PullRefreshControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksrsj.PullRefreshControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B6AD0571F6F6FFE00F92C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42E0EC8D68200027D64DAAD /* Pods-PullRefreshControl.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59U7F436D7;
+				INFOPLIST_FILE = PullRefreshControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksrsj.PullRefreshControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B6AD0361F6F6FF800F92C8A /* Build configuration list for PBXProject "PullRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6AD0531F6F6FFE00F92C8A /* Debug */,
+				3B6AD0541F6F6FFE00F92C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6AD0551F6F6FFE00F92C8A /* Build configuration list for PBXNativeTarget "PullRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6AD0561F6F6FFE00F92C8A /* Debug */,
+				3B6AD0571F6F6FFE00F92C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B6AD0331F6F6FF800F92C8A /* Project object */;
+}
